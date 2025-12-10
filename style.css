@@ -573,7 +573,7 @@ footer {
         padding: 0.5rem 2rem;
     }
 }
-=======
+
 * {
     margin: 0;
     padding: 0;
@@ -860,12 +860,83 @@ main{
         right:-9%;
     }
 }
+@media (max-width: 1799px) {
+   header{
+        padding:1rem 0.5rem;
+    }
+    .content{
+        margin-top:10%;
+        position: relative;
+        top: -100px;
+        scale: 1.3;
+    }
+    .robot-3d{
+        scale: 0.5;
+        top:-20%;
+        right:-18%;
+    }
+    .tag-box{
+        right:-9%;
+    }
+    .content hl{
+         margin-top: -10px;  
+        font-size:0.2rem;
+    }
+    .description{
+        font-size:1rem;
+    }
+    .btn-get-started{
+        font-size: 0.8rem;
+        padding: 0.5rem 0.2rem; 
+    } 
+    .btn-signing-main{
+        font-size: 0.8rem;
+        padding: 0.5rem 2rem;
+    }
+    
+}
+@media (max-width: 1366px) {
+   header{
+        padding:1rem 0.5rem;
+    }
+    .content{
+        margin-top:10%;
+        position: relative;
+        top: -100px;
+        scale: 1.3;
+    }
+    .robot-3d{
+        scale: 0.5;
+        top:-20%;
+        right:-18%;
+    }
+    .tag-box{
+        right:-9%;
+    }
+    .content hl{
+         margin-top: -10px;  
+        font-size:0.2rem;
+    }
+    .description{
+        font-size:1rem;
+    }
+    .btn-get-started{
+        font-size: 0.8rem;
+        padding: 0.5rem 0.2rem; 
+    } 
+    .btn-signing-main{
+        font-size: 0.8rem;
+        padding: 0.5rem 2rem;
+    }
+    
+}
 
 @media(max-width:768px){
     header{
         padding: 1rem 0.1rem;
     }
     .robot-3d{
+        visibility: hidden;
         scale: 0.6;
         top:-35%;
         right:-2%;
@@ -880,7 +951,7 @@ main{
         margin-top:40%;
         position: relative;
         top: -100px;
-        scale: 0.7;
+        scale: 1;
     }
     .tag-box{
      margin-top: 300px;    
@@ -905,4 +976,4 @@ main{
         padding: 0.5rem 2rem;
     }
 }
->>>>>>> e7eafc8dbb1c7938dbd6426172d2007a8849e017
+
