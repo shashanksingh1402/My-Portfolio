@@ -951,7 +951,7 @@ main{
         margin-top:40%;
         position: relative;
         top: -100px;
-        scale: 1;
+        scale: 0.9;
     }
     .tag-box{
      margin-top: 300px;    
